@@ -211,7 +211,7 @@ function App() {
                 <RiRobot2Line />
               </div>
               <div className="title-text">
-                <h2>AI Assistant</h2>
+                <h2>Nova AI</h2>
                 <p>Powered by Groq (Llama 3.1 70B)</p>
               </div>
             </div>
@@ -234,7 +234,7 @@ function App() {
               <div className="welcome-icon">
                 <RiRobot2Line size={64} />
               </div>
-              <h1 className="welcome-title">Hello! I'm your AI Assistant</h1>
+              <h1 className="welcome-title">Hello! I'm Nova, your AI assistant</h1>
               <p className="welcome-subtitle">
                 Powered by Groq's Llama 3.1 70B model<br />
                 Ask me anything - I'm here to help!
@@ -327,7 +327,7 @@ function App() {
           <form onSubmit={handleSubmit} className="input-wrapper">
             <textarea
               className="chat-input"
-              placeholder="Message AI Assistant..."
+              placeholder="Ask Nova AI anything..."
               value={input}
               onChange={handleInputChange}
               onKeyPress={handleKeyPress}
@@ -357,7 +357,7 @@ function App() {
 
         {/* Footer */}
         <div className="chat-footer">
-          AI Assistant v2.0 • Powered by Groq Cloud • Responses may include inaccuracies
+          Nova AI v2.0 • Powered by Groq Cloud • Responses may include inaccuracies
         </div>
       </div>
     </div>
